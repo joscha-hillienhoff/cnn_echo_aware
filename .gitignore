@@ -1,0 +1,107 @@
+# General
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[
+]
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# ======================
+# Virtual environments
+# ======================
+.venv/
+venv/
+env/
+ENV/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ======================
+# Data files (IMPORTANT)
+# ======================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.json
+*.pkl
+*.pickle
+*.npz
+
+# ======================
+# Model artifacts
+# ======================
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ======================
+# Logs & experiment tracking
+# ======================
+logs/
+runs/
+mlruns/
+wandb/
+tensorboard/
+*.log
+
+# ======================
+# OS / Editor
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ======================
+# Temporary / outputs
+# ======================
+tmp/
+outputs/
+results/
+figures/
+plots/
+
+# ======================
+# Credentials / secrets
+# ======================
+.env
+*.key
+*.pem
