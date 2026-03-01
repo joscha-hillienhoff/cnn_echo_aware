@@ -1,4 +1,4 @@
-name: cnn_env
+name: escaping_echo
 channels:
   - conda-forge
   - defaults
