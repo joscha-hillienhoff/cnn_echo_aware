@@ -36,3 +36,9 @@ conda activate escaping_echo
 ### 3. Running the project
 
 After activating the environment, execute the juypter notebooks.
+
+Note: It may also be necessary to manually register the environment as a Jupyter kernel:
+
+```bash
+python -m ipykernel install --name escaping_echo --user
+```
